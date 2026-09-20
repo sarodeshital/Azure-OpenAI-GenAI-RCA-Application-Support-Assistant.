@@ -1,0 +1,11 @@
+{
+  "incident_id": "INC-1002",
+  "service": "genai-support-assistant",
+  "error_code": "401",
+  "description": "Application cannot authenticate to Azure OpenAI after a configuration update.",
+  "logs": [
+    "11:10:01 401",
+    "11:10:02 401",
+    "11:10:03 401"
+  ]
+}
