@@ -1,0 +1,13 @@
+{
+  "incident_id": "INC-1001",
+  "service": "genai-support-assistant",
+  "error_code": "429",
+  "description": "Users report intermittent Azure OpenAI failures during peak traffic.",
+  "logs": [
+    "10:30:01 200",
+    "10:30:02 200",
+    "10:30:03 429",
+    "10:30:04 429",
+    "10:30:05 429"
+  ]
+}
