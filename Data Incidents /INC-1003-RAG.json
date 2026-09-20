@@ -1,0 +1,11 @@
+{
+  "incident_id": "INC-1003",
+  "service": "genai-support-assistant",
+  "error_code": "200",
+  "description": "Application returns a confident but incorrect troubleshooting answer.",
+  "logs": [
+    "retrieval_top_k=4",
+    "answer_generated=200",
+    "user_feedback=incorrect"
+  ]
+}
