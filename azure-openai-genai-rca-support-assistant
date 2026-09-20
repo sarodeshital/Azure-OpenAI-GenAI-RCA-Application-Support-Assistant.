@@ -1,1 +1,57 @@
-
+azure-openai-genai-rca-support-assistant/
+│
+├── app/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── models.py
+│   ├── incident_analyzer.py
+│   ├── rag.py
+│   ├── azure_openai.py
+│   ├── rca_engine.py
+│   ├── main.py
+│   └── streamlit_app.py
+│
+├── data/
+│   ├── incidents/
+│   │   ├── INC-1001-429.json
+│   │   ├── INC-1002-401.json
+│   │   └── INC-1003-RAG.json
+│   │
+│   └── knowledge_base/
+│       ├── azure_openai_401.md
+│       ├── azure_openai_403.md
+│       ├── azure_openai_404.md
+│       ├── azure_openai_429.md
+│       ├── azure_openai_5xx.md
+│       ├── latency.md
+│       ├── rag_quality.md
+│       └── incident_rca.md
+│
+├── docs/
+│   ├── ARCHITECTURE.md
+│   ├── REQUIREMENTS.md
+│   ├── API.md
+│   ├── TROUBLESHOOTING_RUNBOOK.md
+│   ├── SECURITY.md
+│   ├── TEST_PLAN.md
+│   ├── PROJECT_REPORT.md
+│   ├── DEMO_SCRIPT.md
+│   └── GITHUB_SETUP.md
+│
+├── tests/
+│   ├── test_incident_analyzer.py
+│   ├── test_rag.py
+│   └── test_rca_parser.py
+│
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+│
+├── .env.example
+├── .gitignore
+├── requirements.txt
+├── requirements-dev.txt
+├── Dockerfile
+├── docker-compose.yml
+├── LICENSE
+└── README.md
